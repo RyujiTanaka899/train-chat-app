@@ -1,0 +1,13 @@
+{
+  "name": "@train-chat/shared",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.0.0"
+  }
+}

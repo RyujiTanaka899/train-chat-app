@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "電車チャット",
+    "slug": "train-chat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.trainchat.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "電車を検知してチャットルームに参加するために位置情報を使用します。"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.trainchat.app",
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "apiUrl": "http://192.168.3.5:3000"
+    },
+    "packagerOpts": {
+      "host": "192.168.3.5",
+      "port": 8081,
+      "lanType": "ip"
+    }
+  }
+}
